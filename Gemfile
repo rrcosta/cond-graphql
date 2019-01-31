@@ -11,6 +11,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "graphql"
 
 group :development, :test do
+  gem 'codecov', :require => false, :group => :test
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'pry'
   gem 'pry-byebug'

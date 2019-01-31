@@ -8,12 +8,14 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.11'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "graphql"
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'pry'
   gem 'pry-byebug'
   gem 'dotenv-rails'
+  gem 'graphiql-rails'
   gem 'rspec-rails', '~> 3.5'
   gem 'simplecov'
   gem 'factory_bot_rails'
